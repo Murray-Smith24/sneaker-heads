@@ -27,3 +27,26 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+head {
+    text-align: center;
+}
+
+body {
+    align-items: center;
+    background-color: whitesmoke;
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    background-size: contain;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: auto;
+    width: 600px;
+    align-items: center;
+}
